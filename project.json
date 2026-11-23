@@ -1,0 +1,105 @@
+{
+  "slug": "kingy",
+  "name": "KINGYTON",
+  "symbol": "KINGY",
+  "master": "EQC-tdRjjoYMz3MXKW4pj95bNZgvRyWwZ23Jix3ph7guvHxJ",
+  "decimals": 9,
+  "github": {
+    "owner": "Freebielife",
+    "repo": "KINGY"
+  },
+  "pools": [
+    {
+      "address": "EQDsIxN6kTHNTzkW-KDAFoOd7uK8IV_qhw8wR5NkYH1Gh_SQ",
+      "dex": "dedust",
+      "quote": "TON",
+      "evidence": "https://tonapi.io/v2/accounts/EQDsIxN6kTHNTzkW-KDAFoOd7uK8IV_qhw8wR5NkYH1Gh_SQ/events?limit=100"
+    },
+    {
+      "address": "EQD8Zv0FSwt5vnN7ce0DWUmvuRga9uLBqKD2FzlwuUo0b-qf",
+      "dex": "stonfi",
+      "quote": "TON",
+      "evidence": "https://tonapi.io/v2/accounts/EQD8Zv0FSwt5vnN7ce0DWUmvuRga9uLBqKD2FzlwuUo0b-qf/events?limit=100"
+    },
+    {
+      "address": "EQAbjTl9T_2N-8-8suzh6aR-vVorACGAhtf2d4w0FC21CYM4",
+      "dex": "stonfi",
+      "quote": "TON",
+      "evidence": "https://tonapi.io/v2/accounts/EQAbjTl9T_2N-8-8suzh6aR-vVorACGAhtf2d4w0FC21CYM4/events?limit=100"
+    }
+  ],
+  "primary_pool": "EQDsIxN6kTHNTzkW-KDAFoOd7uK8IV_qhw8wR5NkYH1Gh_SQ",
+  "links": {
+    "telegram": "https://t.me/investkingyru",
+    "website": "https://kingy.wtf",
+    "x": "https://twitter.com/kingyru"
+  },
+  "services": {
+    "UQD4uGNdB4a3f52mYOZf0x1nCmdd1DAvrLppL0a1cetTYCQx": "Binance",
+    "EQDPfqI17W9lF-3OmAJu92GOn22BoTMdTmW6cY4s0V-ArRRY": "Bybit"
+  },
+  "engine_version": "1.3.0",
+  "discovery": {
+    "checkedAt": 1795466432,
+    "sources": [
+      "https://tonapi.io/v2/jettons/EQC-tdRjjoYMz3MXKW4pj95bNZgvRyWwZ23Jix3ph7guvHxJ",
+      "https://api.geckoterminal.com/api/v2/networks/ton/tokens/EQC-tdRjjoYMz3MXKW4pj95bNZgvRyWwZ23Jix3ph7guvHxJ/pools?page=1",
+      "https://api.geckoterminal.com/api/v2/networks/ton/tokens/EQC-tdRjjoYMz3MXKW4pj95bNZgvRyWwZ23Jix3ph7guvHxJ/pools?page=2",
+      "https://api.geckoterminal.com/api/v2/networks/ton/tokens/EQC-tdRjjoYMz3MXKW4pj95bNZgvRyWwZ23Jix3ph7guvHxJ/pools?page=3"
+    ],
+    "primaryPoolPolicy": "largest indexed USD liquidity among swap-verified supported TON pools"
+  },
+  "project_description": {
+    "text": "Is an ecosystem token in the TON blockchain with a large Telegram community.",
+    "origin": "token_metadata",
+    "sources": [
+      "https://tonapi.io/v2/jettons/EQC-tdRjjoYMz3MXKW4pj95bNZgvRyWwZ23Jix3ph7guvHxJ",
+      "https://kingy.wtf"
+    ],
+    "checked_at": "2026-11-23"
+  },
+  "flag_file": "web/project-flag.webp",
+  "logo_file": "web/project-logo.webp",
+  "logo_origin": "token_metadata",
+  "logo_source": "https://i.ibb.co/FbTCKRP/logotokenkingy.png",
+  "flag_source": "User-selected TONecoFlags #061; TONecoFlags-catalog-standalone.html",
+  "service_provenance": {
+    "0:f8b8635d0786b77f9da660e65fd31d670a675dd4302facba692f46b571eb5360": {
+      "category": "custody",
+      "source": "User-provided attribution, 2026-11-22; ownership not independently verified"
+    },
+    "0:cf7ea235ed6f6517edce98026ef7618e9f6d81a1331d4e65ba718e2cd15f80ad": {
+      "category": "custody",
+      "source": "User-provided attribution, 2026-11-22; ownership not independently verified"
+    }
+  },
+  "template_repository": "Freebielife/TON-Observatory-Template",
+  "max_html_bytes": 2500000,
+  "ui": {
+    "holders_initial": 10,
+    "holders_expanded": 20
+  },
+  "methodology": {
+    "valuation": "last observed swap in primary_pool times CURRENT total supply; not circulating market cap",
+    "primary_pool": "EQDsIxN6kTHNTzkW-KDAFoOd7uK8IV_qhw8wR5NkYH1Gh_SQ",
+    "sellers": "sum of successful supported native TON swap sales; service roles excluded",
+    "holders": "balances excluding known services and identified contracts; unclassified accounts may remain until verified",
+    "burns": "accepted burn notifications and zero-address transfers shown as distinct evidence",
+    "usd": "historical TON/USD rate from CoinGecko",
+    "history": "incremental confirmed swaps; missing intervals remain partial"
+  },
+  "branding": {
+    "hero": {
+      "origin": "token_metadata",
+      "source": "https://i.ibb.co/FbTCKRP/logotokenkingy.png",
+      "file": "web/project-logo.webp"
+    },
+    "sectionFlag": {
+      "source": "User-selected TONecoFlags #061; TONecoFlags-catalog-standalone.html",
+      "catalogueKey": null,
+      "emoji": null,
+      "file": "web/project-flag.webp"
+    },
+    "channel": "https://t.me/investkingyru"
+  }
+}
